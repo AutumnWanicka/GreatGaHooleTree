@@ -7,20 +7,29 @@ body {
 header {
     background-color: #ff9410;
     padding-left: 8px;
-    padding-bottom: 5px;
 }
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin: 6px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: #fd2323;
+    padding: 4px;
+    border-radius: 10px;
+}
+
 footer {
     background-color: #ff9410;
     border: 2px solid #000;
     margin: 8px;
     padding: 4px;
     border-radius: 8px;
-}
-a{
-  text-decoration: none;
-   border: 1px solid black;
-   background-color: #fd2323;
-   padding: 4px;
-   margin: 25px;
-   border-radius: 10px;
 }
